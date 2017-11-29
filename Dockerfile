@@ -1,7 +1,7 @@
 FROM base/archlinux
 
 RUN       pacman -Sy --noconfirm && \
-          pacman -S --noconfirm ffmpeg gpac git libfdk-aac libxslt && \
+          pacman -S --noconfirm ffmpeg gpac git libxslt && \
           pacman -Scc --noconfirm
           
 VOLUME /app/transcode
