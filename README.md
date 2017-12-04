@@ -6,7 +6,7 @@ Setting up a video transcoding pipeline to create dash/ hls compatible video fil
 Recommended usage via Docker [Kitematic](https://kitematic.com/)
 
 # Examplary toolchain usage
-Based on the works of [squidpickles](https://github.com/squidpickles): 
+(Based on the works of [squidpickles](https://github.com/squidpickles))
 
 Just use Kitematic to open the shared folder place your video file in there and replace "input.mkv" by your input video file (without "").
 ```sh
