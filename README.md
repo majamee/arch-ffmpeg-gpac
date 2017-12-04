@@ -35,6 +35,6 @@ Especially if someone has any input on integrating better [Apple's support of fr
 
 Suggestions welcome. :)
 
-# Tools to test the generated files for streaming:
+# Tools to test the generated files for streaming
 * HLS (e.g. Safari on Mac OS X): https://videojs.github.io/videojs-contrib-hls/ (use the .m3u8 master-playlist)
 * DASH (e.g. Firefox/ Chrome): http://reference.dashif.org/dash.js/ (use the latest released version & the .mpd playlist)
