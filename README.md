@@ -11,11 +11,11 @@ Based on the works of [squidpickles](https://github.com/squidpickles):
 Just use Kitematic to open the shared folder place your video file in there and replace "input.mkv" by your input video file (without "").
 ```sh
 # 1080p@CRF22
-ffmpeg -y -threads 4 -i "input.mkv" -c:a aac -b:a 128k -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(1920,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 intermed_1080p.mp4
+ffmpeg -y -threads 4 -i "input.mkv" -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(1920,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 intermed_1080p.mp4
 # 720p@CRF22
-ffmpeg -y -threads 4 -i "input.mkv" -c:a aac -b:a 128k -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(1280,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 intermed_720p.mp4
+ffmpeg -y -threads 4 -i "input.mkv" -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(1280,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 intermed_720p.mp4
 # 480p@CRF22
-ffmpeg -y -threads 4 -i "input.mkv" -c:a aac -b:a 128k -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(720,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 intermed_480p.mp4
+ffmpeg -y -threads 4 -i "input.mkv" -an aac -b:a 128k -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(720,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 intermed_480p.mp4
 
 # 128k AAC audio only
 ffmpeg -y -threads 4 -i "input.mkv" -vn -c:a aac -b:a 128k audio_128k.m4a
