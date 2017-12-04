@@ -37,7 +37,7 @@ Especially if someone has any input on integrating better [Apple's support of fr
 
 Suggestions welcome. :)
 
-# General hints
+# General hints for hosting the files (to test streaming)
 * Video and playlist files should be hosted best via HTTPS
 * DASH requires the .mpd playlist to be set as `Content-Type: application/dash+xml`
 * No specific streaming server is required, but your hosting should have progressive downloading enabled
