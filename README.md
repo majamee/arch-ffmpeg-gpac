@@ -37,7 +37,7 @@ ffmpeg -i intermed_480p.mp4 -i audio_128k.m4a -map 0:v:0 -map 1:a:0 -shortest -a
 ffmpeg -i audio_128k.m4a -acodec copy -vcodec copy -hls_time 2 -hls_list_size 0 -hls_flags single_file segment_4.m3u8
 
 # Transform MPD-Master-Playlist to M3U8-Master-Playlist
-xsltproc --stringparam run_id "segment" /video/mpd-to-m3u8/mpd_to_hls.xsl playlist.mpd > playlist.m3u8
+xsltproc --stringparam run_id "segment" /app/mpd-to-m3u8/mpd_to_hls.xsl playlist.mpd > playlist.m3u8
 ```
 
 I am glad to receive any improvement ideas about this "any video to DASH/ HLS" pipeline. 
