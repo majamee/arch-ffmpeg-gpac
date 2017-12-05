@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac) [![](https://images.microbadger.com/badges/version/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac) [![Docker Automated build](https://img.shields.io/docker/automated/majamee/arch-ffmpeg-gpac.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/majamee/arch-ffmpeg-gpac.svg)]() | [![Docker Pulls](https://img.shields.io/docker/pulls/majamee/arch-ffmpeg-gpac.svg)]()
+[![](https://images.microbadger.com/badges/image/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac) [![](https://images.microbadger.com/badges/version/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac) [![Docker Automated build](https://img.shields.io/docker/automated/majamee/arch-ffmpeg-gpac.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/majamee/arch-ffmpeg-gpac.svg)]() | [![Docker Pulls](https://img.shields.io/docker/pulls/majamee/arch-ffmpeg-gpac.svg?style=social)]()
 
 
 # arch-ffmpeg-gpac
