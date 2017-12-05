@@ -1,7 +1,6 @@
 FROM base/archlinux
 
-VOLUME /app/transcode
-WORKDIR /app/transcode
+WORKDIR /video
 
 COPY                ./transcode.sh /bin/transcode.sh
 
