@@ -9,5 +9,5 @@ RUN                 pacman -Sy --noconfirm && \
                     cd /app/ && git clone https://github.com/squidpickles/mpd-to-m3u8.git
 
 COPY                ./transcode.sh /bin/transcode.sh
-ENTRYPOINT          ["bin/transcode.sh"]
+ENTRYPOINT          ["/bin/transcode.sh"]
 CMD                 ["*.mkv"]
