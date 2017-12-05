@@ -1,8 +1,8 @@
 #!/bin/sh
 
-input_file=${1?Input file missing}
-filename=$(basename $input_file)
-filename=${filename%.*}
+input_file="${1?Input file missing}"
+filename="$(basename $input_file)"
+filename="${filename%.*}"
 
 # make folders
 mkdir output && mkdir output/$filename && \
