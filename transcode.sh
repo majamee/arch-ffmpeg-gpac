@@ -27,3 +27,6 @@ ffmpeg -i output/$filename/audio_128k.m4a -acodec copy -vcodec copy -hls_time 2 
 
 # Transform MPD-Master-Playlist to M3U8-Master-Playlist
 xsltproc --stringparam run_id "segment" /video/mpd-to-m3u8/mpd_to_hls.xsl output/$filename/playlist.mpd > output/$filename/playlist.m3u8
+
+# Cleanup
+rm output/$filename/intermed_1080p.mp4 output/$filename/intermed_720p.mp4 output/$filename/intermed_480p.mp4 output/$filename/audio_128k.m4a
