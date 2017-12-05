@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac) [![](https://images.microbadger.com/badges/version/majamee/arch-ffmpeg-gpac.svg)](https://microbadger.com/images/majamee/arch-ffmpeg-gpac) [![Docker Automated build](https://img.shields.io/docker/automated/majamee/arch-ffmpeg-gpac.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/majamee/arch-ffmpeg-gpac.svg)]()
 
 # arch-ffmpeg-gpac
 A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video files &amp; playlists.
