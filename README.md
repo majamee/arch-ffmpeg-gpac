@@ -6,7 +6,7 @@ A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video
 Recommended usage via Docker [Kitematic](https://kitematic.com/) & [Docker Hub](https://hub.docker.com/r/majamee/arch-ffmpeg-gpac/).
 
 # Examplary toolchain usage
-(Based on the works of [squidpickles](https://github.com/squidpickles))
+(Based on work of [squidpickles](https://github.com/squidpickles))
 
 Just use Kitematic to open the shared folder, place your video file in there, replace `"input.mkv"` in the commands below by your input video file (without `""`) and execute the shell commands subsequent into the Docker container.
 ```sh
