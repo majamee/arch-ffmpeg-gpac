@@ -42,6 +42,7 @@ Suggestions welcome. :)
 * Video and playlist files should be hosted best via HTTPS
 * DASH requires the .mpd playlist to be set as `Content-Type: application/dash+xml`
 * No specific streaming server is required, but your hosting should have progressive downloading enabled
+* If using a different domain name for the video files compared to the page where the player is hosted CORS headers need to be set
 
 # Tools to test the generated files for streaming
 * HLS (e.g. Safari on Mac OS X): https://videojs.github.io/videojs-contrib-hls/ (use the .m3u8 master-playlist)
