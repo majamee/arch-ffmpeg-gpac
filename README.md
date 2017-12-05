@@ -32,6 +32,7 @@ ffmpeg -i audio_128k.m4a -acodec copy -vcodec copy -hls_time 2 -hls_list_size 0 
 # Transform MPD-Master-Playlist to M3U8-Master-Playlist
 xsltproc --stringparam run_id "segment" ../mpd-to-m3u8/mpd_to_hls.xsl playlist.mpd > playlist.m3u8
 ```
+
 I am glad to receive any improvement ideas about this "any video to DASH/ HLS" pipeline. 
 Especially if someone has any input on integrating better [Apple's support of fragemented mp4 (fmp4) files](https://gpac.wp.imt.fr/tag/hls-fmp4/) in this pipeline.
 
