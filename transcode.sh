@@ -5,7 +5,7 @@ filename="$(basename $input_file)"
 filename="${filename%.*}"
 
 # make folders
-mkdir -m 666 -p output/$filename && \
+mkdir -m 666 -p output/$filename && chmod -R 666 output && \
 
 # 1080p@CRF22
 ffmpeg -y -threads 4 -i $input_file -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -profile:v high -level 4.0 -vf "scale=min'(1920,iw)':-4" -crf 22 -movflags faststart -write_tmcd 0 output/$filename/intermed_1080p.mp4 && \
