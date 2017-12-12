@@ -31,5 +31,5 @@ xsltproc --stringparam run_id "segment" /app/mpd-to-m3u8/mpd_to_hls.xsl output/$
 # Cleanup
 rm output/$filename/intermed_1080p.mp4 output/$filename/intermed_720p.mp4 output/$filename/intermed_480p.mp4 output/$filename/audio_128k.m4a && \
 
-# Set permissions for newly created files and folders matching the parent folder's permissions
-chown -R `stat -c "%u:%g" ./` output
+# Set permissions for newly created files and folders matching the video file's permissions
+chown -R `stat -c "%u:%g" $input_file` output
