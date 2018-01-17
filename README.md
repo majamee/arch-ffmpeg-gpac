@@ -72,5 +72,5 @@ Suggestions welcome. :)
 * Included player (`index.html`) is based on the great work of the guys at [Video.js](http://videojs.com/) 
 
 # Tip
-* A much streamlined version can be found (<30MB) @ https://majamee.github.io/alpine-dash-hls/
-* For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: https://majamee.github.io/auto-dash-hls/
+* A much streamlined version can be found (<30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)
+* For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)
