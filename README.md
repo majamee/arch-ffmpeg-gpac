@@ -54,3 +54,7 @@ Suggestions welcome. :)
 # Tools to test the generated files for streaming
 * HLS (e.g. Safari on Mac OS X): https://videojs.github.io/videojs-contrib-hls/ (use the .m3u8 master-playlist)
 * DASH (e.g. Firefox/ Chrome): http://reference.dashif.org/dash.js/ (use the latest released version & the .mpd playlist)
+
+# Tip
+* A much streamlined version can be found (<30MB) @ https://majamee.github.io/alpine-dash-hls/
+* For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: https://majamee.github.io/auto-dash-hls/
