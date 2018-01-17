@@ -55,6 +55,22 @@ Suggestions welcome. :)
 * HLS (e.g. Safari on Mac OS X): https://videojs.github.io/videojs-contrib-hls/ (use the .m3u8 master-playlist)
 * DASH (e.g. Firefox/ Chrome): http://reference.dashif.org/dash.js/ (use the latest released version & the .mpd playlist)
 
+# Features
+* Creates DASH (VOD) compatible files (including Safari on Mac)
+* Creates HLS files for compatibility with Safari on iOS
+* Optimizes video files for web playback (`moov` atom)
+* Compresses videos using H.264@CRF22 (for best compatibility)
+* Compresses audio using AAC@128k (for DASH as separate track to save data)
+* Creates automatically 3 quality levels (Full HD/ HD/ DVD quality)
+* Fragments video files in 2 second windows to allow dynamic quality switching based on available bandwidth
+* Creates master MPD-Playlist which connects everything (MPEG-DASH)
+* Creates master M3U8-Playlist for HLS
+* Creates all output files neatly stored in a sub-folder matching the video file name in the folder `output` next to the transcoded video file
+* Adds also HTML and `.htaccess` file including code ready for inclusion into the own website for playback next to all other created files
+* Included fallback player (`plyr.html`) is based on the great work of the guys at [Plyr](https://plyr.io/) 
+* Included second fallback player (`fluid-player.html`) is based on the great work of the guys at [Fluid Player](https://github.com/fluid-player/fluid-player) 
+* Included player (`index.html`) is based on the great work of the guys at [Video.js](http://videojs.com/) 
+
 # Tip
 * A much streamlined version can be found (<30MB) @ https://majamee.github.io/alpine-dash-hls/
 * For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: https://majamee.github.io/auto-dash-hls/
