@@ -8,6 +8,10 @@ A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video
 
 Recommended usage via Docker [Kitematic](https://kitematic.com/) & [Docker Hub](https://hub.docker.com/r/majamee/arch-ffmpeg-gpac/).
 
+# Tip
+* A *much streamlined version* can be found (<30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)
+* For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)
+
 # Simplified usage (run in shell/ terminal/ cmd)
 ```sh
 docker pull majamee/arch-ffmpeg-gpac
@@ -72,7 +76,3 @@ Suggestions welcome. :)
 * Included fallback player (`plyr.html`) is based on the great work of the guys at [Plyr](https://plyr.io/) 
 * Included second fallback player (`fluid-player.html`) is based on the great work of the guys at [Fluid Player](https://github.com/fluid-player/fluid-player) 
 * Included player (`index.html`) is based on the great work of the guys at [Video.js](http://videojs.com/) 
-
-# Tip
-* A much streamlined version can be found (<30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)
-* For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)
