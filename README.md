@@ -9,7 +9,7 @@ A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video
 Recommended usage via Docker [Kitematic](https://kitematic.com/) & [Docker Hub](https://hub.docker.com/r/majamee/arch-ffmpeg-gpac/).
 
 # Tip
-* A *streamlined version* can be found (<30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)
+* A *streamlined version* can be found (< 30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)
 * For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)
 
 # Simplified usage (run in shell/ terminal/ cmd)
