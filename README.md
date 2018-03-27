@@ -9,8 +9,8 @@ A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video
 Recommended usage via Docker [Kitematic](https://kitematic.com/) & [Docker Hub](https://hub.docker.com/r/majamee/arch-ffmpeg-gpac/).
 
 # Tip
-* A *streamlined version* can be found (< 30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)
-* For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)
+* **A *streamlined version* can be found (< 30MB) @ [https://majamee.github.io/alpine-dash-hls/](https://majamee.github.io/alpine-dash-hls/)**
+* **For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)**
 
 # Simplified usage (run in shell/ terminal/ cmd)
 ```sh
@@ -62,6 +62,7 @@ Suggestions welcome. :)
 * DASH (e.g. Firefox/ Chrome): http://reference.dashif.org/dash.js/ (use the latest released version & the .mpd playlist)
 
 # Features
+* Supported devices: iOS (Chrome/ Firefox/ Safari), Android (Chrome/ Firefox), Mac (Chrome/ Firefox/ Safari), Windows (Chrome/ Firefox/ EDGE)
 * Creates DASH (VOD) compatible files (including Safari on Mac)
 * Creates HLS files for compatibility with Safari on iOS
 * Optimizes video files for web playback (`moov` atom)
@@ -73,6 +74,7 @@ Suggestions welcome. :)
 * Creates master M3U8-Playlist for HLS
 * Creates all output files neatly stored in a sub-folder matching the video file name in the folder `output` next to the transcoded video file
 * Adds also HTML and `.htaccess` file including code ready for inclusion into the own website for playback next to all other created files
-* Included fallback player (`plyr.html`) is based on the great work of the guys at [Plyr](https://plyr.io/) 
-* Included second fallback player (`fluid-player.html`) is based on the great work of the guys at [Fluid Player](https://github.com/fluid-player/fluid-player) 
-* Included player (`index.html`) is based on the great work of the guys at [Video.js](http://videojs.com/) 
+* Included fallback player (`plyr.html`) is based on the great work of the devs at [Plyr](https://plyr.io/?target=_blank) 
+* Included second fallback player (`fluid-player.html`) is based on the great work of the devs at [Fluid Player](https://www.fluidplayer.com/?target=_blank) 
+* Included third fallback player (`videogular.html`) is based on the great work of the devs at [Videogular](http://www.videogular.com/?target=_blank) 
+* Included player (`index.html`) is based on the great work of the guys at [Video.js](http://videojs.com/?target=_blank) 
