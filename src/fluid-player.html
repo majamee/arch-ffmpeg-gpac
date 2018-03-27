@@ -3,41 +3,47 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Using latest stable VideoJS version styling -->
-  <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+  <!-- Using latest stable Fluid Player version 2.x styling -->
+  <link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css">
 
-  <title>Auto-DASH-HLS VideoJS Player</title>
+  <title>Auto-DASH-HLS Fluid-Player</title>
 </head>
 
 <body>
   <main role="main" id="main">
-    <video id="player" class="video-js vjs-default-skin vjs-fluid" controls nativeControlsForTouch>
+    <video id="player" controls>
       <!-- DASH-Playlist location -->
       <source src="playlist.mpd" type="application/dash+xml">
       <!-- HLS-Playlist location -->
       <source src="playlist.m3u8" type="application/x-mpegURL">
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a web browser that
-        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>.
+      <p>
+        To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video.
       </p>
     </video>
   </main>
 
-  <!-- Include video.js, dash.js and videojs-contrib-dash in your page -->
-  <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+  <!-- Include fluidplayer.js and dash.js in your page -->
+  <script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
   <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-  <script src="https://unpkg.com/videojs-contrib-dash/dist/videojs-dash.min.js"></script>
 
   <script>
-    /* Initialize VideoJS Player */
-    (function(videojs) {
-      var videojsplayer = window.player = videojs('player');
-    })(window.videojs);
+    /* Initialize Fluid Player */
+    video = document.querySelector('#player');
+    fluidPlayer(
+      'player',
+      /* Options */
+      {
+        layoutControls: {
+          /* theme */
+          layout: 'default',
+          /* enable responsive behavior */
+          fillToContainer: true // Default true
+        }
+      }
+    );
   </script>
-
 </body>
 
 </html>
