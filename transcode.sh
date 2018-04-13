@@ -6,7 +6,7 @@ filename="${filename%.*}"
 frames=$(ffprobe -v error -select_streams v:0 -show_entries stream=nb_frames -of default=nokey=1:noprint_wrappers=1 "${input_file}")
 
 # informing users, how they can achieve the same goal in under 30 MB
-echo -e "\nPlease check http://alpine-dash-hls.gq/ for a streamlined version (< 30 MB) of this project :)\n"
+echo -e "\nPlease check http://alpine-dash-hls.gq/ for a streamlined version (< 30 MB) of this project :)"
 
 # make folders
 echo -e "\nCurrent video: ${input_file}\nDetected file name: ${filename}\nTotal # of frames: ${frames}\n" && mkdir -p "output/${filename}" && \
