@@ -2,6 +2,8 @@
 [![Docker Automated build](https://img.shields.io/docker/automated/majamee/arch-ffmpeg-gpac.svg)]() [![Docker Build Status](https://img.shields.io/docker/build/majamee/arch-ffmpeg-gpac.svg)]() | 
 [![Docker Stars](https://img.shields.io/docker/stars/majamee/arch-ffmpeg-gpac.svg?style=social)]() [![Docker Pulls](https://img.shields.io/docker/pulls/majamee/arch-ffmpeg-gpac.svg?style=social)]()
 
+# About do get deprecated
+Please use the following project as it is this project's successor [here](https://github.com/majamee/alpine-dash-hls).
 
 # arch-ffmpeg-gpac
 A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video files &amp; playlists.
