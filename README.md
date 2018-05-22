@@ -3,7 +3,8 @@
 [![Docker Stars](https://img.shields.io/docker/stars/majamee/arch-ffmpeg-gpac.svg?style=social)]() [![Docker Pulls](https://img.shields.io/docker/pulls/majamee/arch-ffmpeg-gpac.svg?style=social)]()
 
 # About do get deprecated
-Please use the following project [here](https://github.com/majamee/alpine-dash-hls) as it is this project's successor.
+Please use the following project [here](https://github.com/majamee/alpine-dash-hls) as it is this project's successor:
+[https://github.com/majamee/alpine-dash-hls](https://github.com/majamee/alpine-dash-hls)
 
 # arch-ffmpeg-gpac
 A ready-prepared video transcoding pipeline to create DASH/ HLS compatible video files &amp; playlists.
