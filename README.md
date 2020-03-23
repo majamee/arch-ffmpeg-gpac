@@ -13,7 +13,7 @@ Recommended usage via Docker [Kitematic](https://kitematic.com/) & [Docker Hub](
 
 # Tip
 ![Alpine Dash HLS - Simple Stream Videos](http://majamee.000webhostapp.com/user/images/ADH-logo-alphatest.png)
-* **A *streamlined version* can be found (< 30MB) @ [http://alpine-dash-hls.gq/](http://alpine-dash-hls.gq/)**
+* **A *streamlined version* can be found (< 30MB) @ [https://majamee.000webhostapp.com/](https://majamee.000webhostapp.com/)**
 * **For creating DASH/ HLS compatible files for multiple videos in a single run, please have a look at: [https://majamee.github.io/auto-dash-hls/](https://majamee.github.io/auto-dash-hls/)**
 
 # Simplified usage (run in shell/ terminal/ cmd)
