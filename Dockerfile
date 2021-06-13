@@ -1,4 +1,4 @@
-FROM                archlinux/base
+FROM                archlinux:base
 
 COPY                ./transcode.sh /bin/transcode.sh
 
