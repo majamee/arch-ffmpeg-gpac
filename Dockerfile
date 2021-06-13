@@ -1,4 +1,4 @@
-FROM                archlinux/archlinux:base-20210205.0.15146
+FROM                archlinux:base
 
 COPY                ./transcode.sh /bin/transcode.sh
 
@@ -7,8 +7,10 @@ COPY                ./transcode.sh /bin/transcode.sh
                     # Thanks to https://github.com/lxqt/lxqt-panel/pull/1562
 RUN                 patched_glibc=glibc-linux4-2.33-4-x86_64.pkg.tar.zst && \
                     curl -LO "https://repo.archlinuxcn.org/x86_64/$patched_glibc" && \
-                    bsdtar -C / -xvf "$patched_glibc" && \
-                    pacman -Sy --noconfirm && \
+                    bsdtar -C / -xvf "$patched_glibc"
+                    
+                    
+RUN                 pacman -Sy --noconfirm && \
                     pacman -S --noconfirm ffmpeg gpac git libxslt && \
                     pacman -Scc --noconfirm && \
                     git clone https://github.com/squidpickles/mpd-to-m3u8.git /app/mpd-to-m3u8 && \
